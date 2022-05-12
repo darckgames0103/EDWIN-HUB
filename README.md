@@ -1007,7 +1007,7 @@ FirstPage.AddToggle("auto dupe the banana", false, function(Value)
 
                                
 
-                                                                                                                                                                                                      local      FirstPage = MainUI.AddPage("drop")
+                                                                                                                                                                                             local      FirstPage = MainUI.AddPage("drop")
                                                                                                                                                                                                       FirstPage.AddButton("Drop Ben",function()
                                                                                                                                                                                                         getgenv().item_name = "Trading Ben"
                                                                                                                                                                                                         loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
